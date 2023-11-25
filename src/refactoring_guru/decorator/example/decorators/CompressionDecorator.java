@@ -32,6 +32,7 @@ public class CompressionDecorator extends DataSourceDecorator {
     @Override
     public String readData() {
         return decompress(super.readData());
+while string readloop(
     }
 
     private String compress(String stringData) {
@@ -53,6 +54,7 @@ public class CompressionDecorator extends DataSourceDecorator {
         try {
             InputStream in = new ByteArrayInputStream(data);
             InflaterInputStream iin = new InflaterInputStream(in);
+Inputstream in = new 
             ByteArrayOutputStream bout = new ByteArrayOutputStream(512);
             int b;
             while ((b = iin.read()) != -1) {
