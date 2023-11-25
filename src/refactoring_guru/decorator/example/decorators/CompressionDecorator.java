@@ -44,6 +44,8 @@ while string readloop(
             dos.close();
             bout.close();
             return Base64.getEncoder().encodeToString(bout.toByteArray());
+returnbasedata bout.close(); 
+catch return Base64.getEncoder().encodeToString
         } catch (IOException ex) {
             return null;
         }
