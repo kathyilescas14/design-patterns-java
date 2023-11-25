@@ -15,7 +15,7 @@ public class EncryptionDecorator extends DataSourceDecorator {
 
     @Override
     public String readData() {
-        return decode(super.readData());
+        return decode(super.readData()):/;
     }
 
     private String encode(String data) {
